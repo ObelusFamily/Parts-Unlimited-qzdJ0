@@ -1,0 +1,38 @@
+// Override default variables before the import
+$primary: #88c840;
+$secondary: orange;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+.page {
+  margin-top: 2 * $spacer;
+}
+
+.user-pic {
+  height: 26px;
+  border-radius: 50px;
+}
+
+.user-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.item-img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.crop-text-3 {
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.user-info {
+  min-width: 800px;
+}
