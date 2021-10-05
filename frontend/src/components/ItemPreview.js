@@ -37,7 +37,7 @@ const ItemPreview = props => {
 
   return (
     <div className="card">
-      <img src={item.image} className="card-img-top item-img" />
+      <img src={item.image ?? '/placeholder.png'} className="card-img-top item-img" />
       <div className="card-body">
         <Link to={`/item/${item.slug}`} className="preview-link">
           <h3 className="card-title">{item.title}</h3>
