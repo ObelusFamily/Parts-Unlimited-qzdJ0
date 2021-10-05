@@ -8,6 +8,8 @@ To start the app use: `yarn dev` from the backend directory.
 
 Make sure your DB is up and running and that you create a `.env` file with `MONGODB_URI` set to the correct value.
 
+Run `yarn run seeds` to initialize the database with test content.
+
 ## Dependencies
 
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - For generating JWTs used by authentication
